@@ -10,6 +10,27 @@ class BearTest < MiniTest::Test
     @river = River.new("River Clyde", 20)
   end
 
+  def test_get_name_of_river
+    assert_equal("River Clyde", @river.name)
+  end
 
-  def test_get_river_name
+  def test_get_number_of_fish
+    assert_equal(20, @river.fish)
+  end
+
+  def test_remove_fish
+
+    assert_equal(19, @river.number_of_fish)
+  end
+
+
+
+
+
+
+
+
+
+
+
 end
