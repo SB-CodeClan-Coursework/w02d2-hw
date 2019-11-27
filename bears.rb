@@ -16,16 +16,4 @@ class Bear
     @stomach.push(fish)
   end
 
-
-
-
-
-
-
-
-
-
-
-
-
 end

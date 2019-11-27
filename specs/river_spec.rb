@@ -22,19 +22,4 @@ class BearTest < MiniTest::Test
     assert_equal(4, @fishes.number_of_fish)
   end
 
-  # def test_remove_fish
-  #   fish = ()
-  #   assert_equal(19, @river.number_of_fish)
-  # end
-
-
-
-
-
-
-
-
-
-
-
 end
